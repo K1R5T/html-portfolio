@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Pacifico|Sigmar+One|Teko&display=swap');
+
+body {background-image: url(milky.jpeg);
+opacity: 5;}
+
+h1 {
+    color: #f72804;
+    font-family: 'Sigmar One', cursive;
+}
+
+p {
+    color: rgb(253, 18, 18);
+    font-size: larger;
+}
+.change {
+    color: rgb(15, 255, 7);
+    font-size: larger;
+}
+h2 {
+    color: rgb(245, 0, 233);
+    font-family: 'Inconsolata', monospace;
+}
+.color {
+    color: greenyellow;
+    font-size: large;
+    font-family: 'Indie Flower', cursive;
+}
+.list {
+    color: hotpink;
+    font-size: large;
+    font-family: 'Indie Flower', cursive;
+}
+.code {
+    color: rgb(0, 255, 76);
+}
+.week {
+    color: orangered;
+}
+.one {
+    color: yellow;
+}
+.title {
+    color: magenta;
+}
+.sea {
+    color: orange;
+}
+.join {
+    color: yellow;
+}
+.target {
+    color: greenyellow;
+}
+.link {
+    color: indianred;
+}
+.security {
+    color: yellow;
+}
+.day {
+    color: orangered;
+}
+.first {
+    color: orange;
+}
+.now {
+    color: deeppink;
+}
+.nation {
+    color: red;
+}
+.git {
+    color: rgb(0, 255, 76);
+}
+.done {
+    color: yellow
+}
+.cyber {
+    color: rgb(248, 0, 0);
+}
+.develop {
+    color: greenyellow;
+}
+.phone {
+    color: red;
+}
+.monday {
+    color: fuchsia;
+}
+.jump {
+    color: orange;
+}
+.home {
+    color: greenyellow;
+}
+.so {
+    color: hotpink;
+}
+.invite {
+    color: lawngreen;
+}
