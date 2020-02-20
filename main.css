@@ -1,101 +1,286 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Pacifico|Sigmar+One|Teko&display=swap');
 
-body {background-image: url(milky.jpeg);
-opacity: 5;}
-
-h1 {
-    color: #f72804;
-    font-family: 'Sigmar One', cursive;
+/* index page  */
+/* image and buttons */
+body{
+    background-color: silver;
 }
+
+#navbar button{
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.home button {
+    color: blue;
+}
+.about button {
+    color: hotpink;
+}
+.studies button {
+    color: yellowgreen;
+}
+.links button {
+    color: red;
+}
+
+.header{
+    background-image: url(/img/profbackground.jpg);
+    min-height: 200px;
+    background-position: center;
+    padding: 30px;
+    background-repeat: repeat, repeat, repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* image and buttons */
+
+/* kirsty portfolio */
+h1 {     
+    font-family: monospace;
+    font-size: 50px;
+    display: flex;
+    display: contents;
+    color: rgb(255, 0, 51);
+} 
+/* kirsty portfolio */
 
 p {
-    color: rgb(253, 18, 18);
-    font-size: larger;
+    color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
 }
-.change {
-    color: rgb(15, 255, 7);
-    font-size: larger;
-}
+
 h2 {
-    color: rgb(245, 0, 233);
+    color: rgb(45, 0, 245);
     font-family: 'Inconsolata', monospace;
+    padding: 10px;
 }
-.color {
-    color: greenyellow;
-    font-size: large;
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 18px;
+    border-style: solid ;
+    border-color:lawngreen;
+    border-radius: 18px;
+}
+.box{
+    width: 33.3333%;
+    text-align: left;
+}
+
+.food {
+    color: rgb(201, 40, 134);
     font-family: 'Indie Flower', cursive;
-}
-.list {
-    color: hotpink;
-    font-size: large;
+    font-size: 25px;
+} 
+.seasons {
+    color: rgb(228, 80, 43);
     font-family: 'Indie Flower', cursive;
-}
-.code {
-    color: rgb(0, 255, 76);
-}
-.week {
-    color: orangered;
-}
-.one {
-    color: yellow;
-}
-.title {
-    color: magenta;
-}
-.sea {
-    color: orange;
+    font-size: 25px;
 }
 .join {
-    color: yellow;
+color: rgb(47, 121, 41);
 }
 .target {
-    color: greenyellow;
+    color: rgb(134, 40, 134);
 }
-.link {
-    color: indianred;
+.jo{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
 }
-.security {
-    color: yellow;
+.targ{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
 }
-.day {
-    color: orangered;
+
+/* index page */
+
+/* page 1 */
+
+
+.me {
+    color: crimson;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/profbackground.jpg);
+    background-repeat: repeat, repeat, repeat;
+    min-height: 150px;
+    background-position: center;
+    padding: 30px;
 }
-.first {
-    color: orange;
+.in button {
+    color: blue;
 }
-.now {
-    color: deeppink;
-}
-.nation {
-    color: red;
-}
-.git {
-    color: rgb(0, 255, 76);
-}
-.done {
-    color: yellow
-}
-.cyber {
-    color: rgb(248, 0, 0);
-}
-.develop {
-    color: greenyellow;
-}
-.phone {
-    color: red;
-}
-.monday {
-    color: fuchsia;
-}
-.jump {
-    color: orange;
-}
-.home {
-    color: greenyellow;
-}
-.so {
+.pag button {
     color: hotpink;
 }
-.invite {
+.pug button {
     color: lawngreen;
+}
+.ex button {
+    color: orangered;
+}
+.one{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+.two{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+}
+.three{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+.four{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+}
+.five{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+/* studies and info page */
+
+.dex button {
+    color: blue;
+    font-size: 25px;
+}
+.kirst button {
+    color: hotpink;
+    font-size: 25px;
+}
+.info button {
+    color: lawngreen;
+    font-size: 25px;
+}
+.exlink button {
+    color: orangered;
+    font-size: 25px;
+}
+/* .cod {
+    text-align: center;
+} */
+.nation{
+    background-image: url(./img/codenation.png);
+    background-repeat: repeat, repeat,repeat, no-repeat;
+    height: 160px;
+    width: 1450px;
+}
+.six{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+.seven{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+}
+.eight{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+.nine{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+}
+.ten{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+.eleven{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+}
+.twelve{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+.thirteen{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+}
+.fourteen{
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: magenta;
+    border-radius: 18px;
+}
+/* external links page */
+
+
+.hm button {
+    color: blue;
+    font-size: 25px;
+}
+.kst button {
+    color: hotpink;
+    font-size: 25px;
+}
+.stud button {
+    color: lawngreen;
+    font-size: 25px;
+}
+.xlink button {
+    color: orangered;
+    font-size: 25px;
+}
+.ghub{
+    border-style: solid;
+    border-color: magenta;
+    border-radius: 18px;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+.linkedIn {
+    padding-top: 18px;
+    border-style: solid ;
+    border-color: lawngreen;
+    border-radius: 18px;
+    padding-left: 18px;
+}
+.cnation{
+    border-style: solid;
+    border-color: magenta;
+    border-radius: 18px;
+    padding-top: 18px;
+    padding-left: 18px;
 }
